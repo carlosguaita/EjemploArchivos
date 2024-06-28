@@ -23,7 +23,7 @@ int main (int argc, char *argv[]) {
     //fputs(text,f);
     for (int i = 0; i < 10; i++)
     {
-        fprintf(f,"Nombre: %s Categoria: %s  Marca: %s\n",productos[i][0],productos[i][1],productos[i][2]);
+        fprintf(f,"%s %s %s\n",productos[i][0],productos[i][1],productos[i][2]);
     }
 
     fclose(f);
